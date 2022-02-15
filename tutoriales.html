@@ -6,9 +6,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>ALEXA BEAUTY INICIO</title>
     <link rel="shortcut icon" href="/Imagenes/ALEXA BEAUTY LOGO.png">
+    <link rel="stylesheet" href="css/animate.css">
     <link rel="stylesheet" href="estilos.css">
+    
 </head>
 <body class="gridstutoriales">
+
+    <script src="js/wow.min.js"></script>
+              <script>
+              new WOW().init();
+              </script>
+              
         <header class="header1">
             <img src="/Imagenes/ALEXA_BEAUTY_BLANCO.png" alt="logo" width="10%">
             <nav>
@@ -23,18 +31,18 @@
         </header> 
             <div class="space2"></div>
             <div class="space1"><h2>TUTORIALES</h2></div>
-            <div class="video1"><iframe width="800" height="400" src="https://www.youtube.com/embed/jrJRV-XQdJM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen id="video1"></iframe></div>
-            <div class="video2"><iframe width="800" height="400" src="https://www.youtube.com/embed/ykgfLMFH_j4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
-            <div class="video3"><iframe width="800" height="400" src="https://www.youtube.com/embed/3gcDKtjg1m0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
-            <div class="text1"><p>El smokey eye es un clásico para eventos y reuniones nocturnas, como una cena, fiesta o gala. Para la Navidad y el Año Nuevo, puedes hacer de este, un look más llamativo usando colores como el rojo, verde y dorado. Aplica una base de un color similar al de tu tono de piel sobre todo tu párpado. Luego coloca una sombra en barra dorada cerca de la línea de pestañas, y difumina bien con una brocha pequeña. Para el toque final, delineado en color negro sutil para complementar el look.</p></div>
-            <div class="text2"><p>El cat eye es un estilo de maquillaje utilizado comúnmente para alargar nuestra mirada y darle un detalle de elegancia. Ha sido utilizado por miles de mujeres como parte de estilo del día a día. Aunque es un estilo que requiere técnica, hoy existen diversos tipos de productos (tanto sombras como delineadores) que pueden ayudarnos a realizarlo y que puedes encontrar fácilmente en nuestra tienda</p></div>
-            <div class="text3"><p>El cut crease es una técnica de make up muy específica: se trata de centrar la atención en la cuenca de tu párpado para darle mucha intensidad a la mirada. La idea es poner tu mirada en el primer plano de tu look, dándole a todo tu outfit un aura poderosa que nos encanta.</p></div>
+            <div class="video1" id="videos"><iframe width="800" height="400" src="https://www.youtube.com/embed/jrJRV-XQdJM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen id="video1"></iframe></div>
+            <div class="video2"id="videos"><iframe width="800" height="400" src="https://www.youtube.com/embed/ykgfLMFH_j4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+            <div class="video3"id="videos"><iframe width="800" height="400" src="https://www.youtube.com/embed/3gcDKtjg1m0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+            <div class="text1" class="wow fadeInRight"><p>El smokey eye es un clásico para eventos y reuniones nocturnas, como una cena, fiesta o gala. Para la Navidad y el Año Nuevo, puedes hacer de este, un look más llamativo usando colores como el rojo, verde y dorado. Aplica una base de un color similar al de tu tono de piel sobre todo tu párpado. Luego coloca una sombra en barra dorada cerca de la línea de pestañas, y difumina bien con una brocha pequeña. Para el toque final, delineado en color negro sutil para complementar el look.</p></div>
+            <div class="text2"class="wow fadeInLeft"><p>El cat eye es un estilo de maquillaje utilizado comúnmente para alargar nuestra mirada y darle un detalle de elegancia. Ha sido utilizado por miles de mujeres como parte de estilo del día a día. Aunque es un estilo que requiere técnica, hoy existen diversos tipos de productos (tanto sombras como delineadores) que pueden ayudarnos a realizarlo y que puedes encontrar fácilmente en nuestra tienda</p></div>
+            <div class="text3"class="wow fadeInRight"><p>El cut crease es una técnica de make up muy específica: se trata de centrar la atención en la cuenca de tu párpado para darle mucha intensidad a la mirada. La idea es poner tu mirada en el primer plano de tu look, dándole a todo tu outfit un aura poderosa que nos encanta.</p></div>
           <footer  class="footer1"> 
             <h2>¡Suscribite a nuestro newsletter para fabulosos descuentos!</h2>
             <br>
 
         
-        <form action="enviar.php" method="post" enctype="text/plain">
+        <form action="enviar.php" method="post" enctype="text/plain"class="letraform">
             <label for="Nombre y apellido">Nombre y apellido:</label>
             <input type="text" name="nombre y apellido" required>
             <br>
@@ -44,10 +52,10 @@
             <label for="tel">Telefono/celular</label>
             <input type="number" required>
             <br>
-            <input type="submit" value="Enviar">
-            <input type="reset" value="Borrar todo"
+            <input type="submit" value="Enviar"class="enviar">
+            <input type="reset" value="Borrar todo"class="enviar"
                 ></form>
-                <ul>
+                <ul class="redes">
                     <li><a href=""><img src="https://icongr.am/entypo/instagram.svg?size=30&color=ffffff" alt="logoig"></a></li>
                     <li><a href=""><img src="https://icongr.am/entypo/twitter.svg?size=30&color=ffffff" alt="logotw"></a></li>
                     <li><a href=""><img src="https://icongr.am/entypo/facebook.svg?size=30&color=ffffff" alt="logofb"></a></li>
@@ -55,4 +63,5 @@
                 </ul> 
         Derechos reservados©/AlexaBeauty
           </footer>
+          
 </body>    

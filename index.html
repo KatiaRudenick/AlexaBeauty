@@ -24,34 +24,43 @@
         </header>
     <div class="hero"></div>
     <div class="tit1"><h2>NUEVOS PRODUCTOS</h2></div>
-    <div class="masv1"></div>
-    <div class="masv2"></div>
-    <div class="masv3"></div>
+    <div class="fotos1" id="fotos1">
+        <div  id="fotos"><img src="/Imagenes/NEWPRODUCT1.webp" alt="new1" height="300" width="400" ></div>
+        <div  id="fotos"><img src="/Imagenes/NEWPRODUCT2.jpg" alt="new2"height="300" width="400"></div>
+        <div  id="fotos"><img src="/Imagenes/NEWPRODUCT3.jpg" alt="new3"height="300" width="400"></div>
+    </div>
+    
     <div class="tit2"><h2>LOS MAS VENDIDOS</h2></div>
-    <div class="new1"></div>
-    <div class="new2"></div>
-    <div class="new3"></div>
-    <div class="new4"></div>
-    <div class="new5"></div>
+    <div class="fotos2" id="fotos2">
+        <div id="fotos"><img src="/Imagenes/MASVENDIDO1.jpg" alt=""height="450" width="400"></div>
+        <div id="fotos"><img src="/Imagenes/MASVENDIDO3.jpg" alt=""height="450" width="400"></div>
+        <div id="fotos"><img src="/Imagenes/MASVENDIDO4.jpg" alt=""height="450" width="400"></div>
+        <div id="fotos"><img src="/Imagenes/MASVENDIDO5.webp" alt=""height="450" width="400"></div>
+        <div id="fotos"><img src="/Imagenes/MASVENDIDO6.jpg" alt=""height="450" width="400"></div>
+    </div>
+    
     <footer class="footer">
+        <br>
         <h2>¡Suscribite a nuestro newsletter para fabulosos descuentos!</h2>
             <br>
 
         
-        <form action="enviar.php" method="post" enctype="text/plain">
+        <form action="enviar.php" method="post" enctype="text/plain" class="letraform">
             <label for="Nombre y apellido">Nombre y apellido:</label>
             <input type="text" name="nombre y apellido" required>
             <br>
+            
             <label for="email">Email:</label>
             <input type="email" required>
             <br>
+            
             <label for="tel">Telefono/celular</label>
             <input type="number" required>
             <br>
-            <input type="submit" value="Enviar">
-            <input type="reset" value="Borrar todo"
-                ></form>
-                <ul>
+            <input type="submit" value="Enviar" class="enviar">
+            <input type="reset" value="Borrar todo" class="enviar">
+        </form>
+                <ul class="redes">
                     <li><a href=""><img src="https://icongr.am/entypo/instagram.svg?size=30&color=ffffff" alt=""></a></li>
                     <li><a href=""><img src="https://icongr.am/entypo/twitter.svg?size=30&color=ffffff" alt=""></a></li>
                     <li><a href=""><img src="https://icongr.am/entypo/facebook.svg?size=30&color=ffffff" alt=""></a></li>
