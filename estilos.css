@@ -44,9 +44,6 @@ grid-template-areas:
 
 
 
-
-
-
 a{
 text-decoration: none;
 color: white;
@@ -75,6 +72,7 @@ color: #000
 body{
   background: white;
 }
+
 .hero { grid-area: hero;
 background-image: url(/Imagenes/GIGI\ FONDO.jpg);
 background-position: center;
@@ -282,3 +280,258 @@ background-color: pink;
 display: flex;
 justify-content: right;
 }
+
+
+
+.grids-productos {  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 200px 150px 400px 150px 400px 150px 400px 150px 800px 100px 250px;
+  grid-auto-columns: 1fr;
+  gap: 10px 10px;
+  grid-auto-flow: row;
+  grid-template-areas:
+    "header"
+    "titulo-labiales"
+    "labiales"
+    "titulo-paletas"
+    "paletas"
+    "titulo-mascaras"
+    "mascaras"
+    "titulo-bases"
+    "bases"
+    "space"
+    "footer";
+}
+
+
+
+.titulo-labiales { grid-area: titulo-labiales;
+  text-align: center;
+  font-family: 'PT Sans Narrow', sans-serif;
+  font-size: 28px;
+  text-transform: uppercase;
+  color: pink;
+  display: flex;
+  align-items: center;
+  justify-content: center; }
+
+.labiales { grid-area: labiales;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  align-content: space-around;
+  justify-content: center; }
+
+  .labiales img{
+    padding: 1%;
+  margin-right: 2%
+  }
+
+.titulo-paletas { grid-area: titulo-paletas;
+  text-align: center;
+  font-family: 'PT Sans Narrow', sans-serif;
+  font-size: 28px;
+  text-transform: uppercase;
+  color: pink;
+  display: flex;
+  align-items: center;
+  justify-content: center; }
+
+
+.paletas { grid-area: paletas;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  align-content: space-around;
+  justify-content: center;
+  
+   }
+.paletas img{
+  padding: 1%;
+  margin-right: 2%;
+  
+}
+.titulo-mascaras { grid-area: titulo-mascaras;text-align: center;
+  font-family: 'PT Sans Narrow', sans-serif;
+  font-size: 28px;
+  text-transform: uppercase;
+  color: pink;
+  display: flex;
+  align-items: center;
+  justify-content: center; }
+
+.mascaras { grid-area: mascaras;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  align-content: space-around;
+  justify-content: center; }
+
+  .mascaras img{
+    padding: 1%;
+  margin: 2%;
+  }
+
+.titulo-bases { grid-area: titulo-bases; 
+  text-align: center;
+  font-family: 'PT Sans Narrow', sans-serif;
+  font-size: 28px;
+  text-transform: uppercase;
+  color: pink;
+  display: flex;
+  align-items: center;
+  justify-content: center; }
+
+.bases { grid-area: bases;
+  display: flex;
+  flex-flow: wrap row;
+ align-items: center;
+  align-content: space-around;
+  justify-content: center;
+   }
+
+.bases img{
+  padding: 1%;
+
+}
+.space { grid-area: space; }
+
+#fotos3{
+  transition: all 300ms;
+  position: relative;
+  }
+  
+  #fotos3 img:hover{
+  transform: scale(1.15);
+  }
+
+  .grids-contacto {
+    display: grid; 
+    grid-auto-columns: 1fr; 
+    grid-template-columns: 1fr; 
+    grid-template-rows: 200px 50px 100px 400px 150px 300px; 
+    gap: 10px 10px; 
+    grid-template-areas: 
+      "header"
+      "space"
+      "titulo-contacto"
+      "contacto"
+      "espacio-contacto"
+      "footer"; 
+  }
+  
+  .header { grid-area: header; }
+
+  .titulo-contacto{
+    grid-area: titulo-contacto;
+    text-align: center;
+  font-family: 'PT Sans Narrow', sans-serif;
+  font-size: 20px;
+  text-transform: uppercase;
+  color: pink;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  }
+  
+  .space { grid-area: space; }
+  
+  .contacto { grid-area: contacto; }
+
+  .contacto img{
+    float: right;
+    margin-right: 10%; 
+  }
+
+  .contacto p{
+    font-size: 18px;
+    font-family: 'PT Sans Narrow', sans-serif;
+    color: black;
+    margin-left: 2%;
+  }
+   .contacto h2{
+    text-align: center;
+    font-family: 'PT Sans Narrow', sans-serif;
+    font-size: 28px;
+    text-transform: uppercase;
+    color: pink;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin-left: 2%;
+   }
+
+   .enviar1{
+    font-size: 15px;
+    color: palevioletred;
+  }
+
+   .contacto form{
+    color: palevioletred;
+    font-size: 20px;
+    margin-left: 2%;
+
+   }
+  
+  .espacio-contacto { grid-area: espacio-contacto; }
+
+
+  .grids-inspiracion {  display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 200px 50px 100px 1800px 100px 250px;
+    grid-auto-columns: 1fr;
+    gap: 10px 10px;
+    grid-auto-flow: row;
+    grid-template-areas:
+      "header"
+      "space"
+      "titulo-inspiracion"
+      "fotos-inspiracion"
+      "space1"
+      "footer";
+  }
+  
+  .header { grid-area: header; }
+  
+  .space { grid-area: space; }
+  
+  .titulo-inspiracion { grid-area: titulo-inspiracion;
+  
+    text-align: center;
+    font-family: 'PT Sans Narrow', sans-serif;
+    font-size: 28px;
+    text-transform: uppercase;
+    color: pink;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 3%;
+   }
+  
+  .fotos-inspiracion { grid-area: fotos-inspiracion;
+    display: flex;
+    flex-flow: wrap row;
+   align-items: center;
+    align-content: space-around;
+    justify-content: center;
+     }
+
+    .fotos-inspiracion img{
+      margin: 1%;
+  
+    }
+
+    #fotos4{
+      transition: all 300ms;
+      position: relative;
+      }
+      
+      #fotos4 img:hover{
+      transform: scale(1.15);
+      }
+  
+  .space1 { grid-area: space1; }
+  
+  .footer { grid-area: footer; }
+  
+  

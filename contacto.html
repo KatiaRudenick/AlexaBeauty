@@ -5,13 +5,12 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>ALEXA BEAUTY CONTACTO</title>
-    <link rel="shortcut icon" href="/Imagenes/ALEXA BEAUTY LOGO.png">
+    <link rel="shortcut icon" href="Imagenes/ALEXA_BEAUTY_BLANCO.png">
     <link rel="stylesheet" href="estilos.css">
 </head>
-<body>
-    <header>
-        <img src="/Imagenes/ALEXA_BEAUTY_BLANCO.png" alt="logo png">
-        <h1>ALEXA BEAUTY</h1>
+<body class="grids-contacto">
+    <header class="header">
+        <img src="Imagenes/ALEXA_BEAUTY_BLANCO.png" alt="logo" width="10%">
         <nav>
             <ul>
                 <li><a href="index.html">INICIO</a></li>
@@ -22,17 +21,15 @@
             </ul>
         </nav>
     </header>
-    <main>
-        <article>
-            <br>
-            <br>
-            <h1>CONTACTATE CON NOSOTROS!</h1>
+
+        <div class="space"></div>
+        <div class="titulo-contacto"><h2>CONTACTATE CON NOSOTROS!</h2></div>
+        <div class="contacto">
             <br>
             <br>
             <p>TEL: 02236178720</p>
             <br>
-            <img src="/Imagenes/bellahadid.jpg" alt="bellahadid" height="400"
-                width="400" class="foto">
+            <img src="Imagenes/bellahadid.jpg" alt="bellahadid" height="400" width="400">
             <p>EMAIL: alexabeauty@gmail.com</p>
             <br>
             <br>
@@ -58,40 +55,43 @@
                 <br>
                 <textarea name="mensajes" id="" cols="60" rows="10" placeholder="Escribe tu mensaje:"></textarea>
                 <br>
-                <input type="submit" value="Enviar">
-                <input type="reset" value="Borrar todo"
+                <input type="submit" value="Enviar"class="enviar1">
+                <input type="reset" value="Borrar todo"class="enviar1"
                 ></form>
-                
-        </article>
-        <br>
-        <br>
+            
+        </div>
+        <div class="espacio-contacto"></div>
+      </div>
 
-        <footer>
-            <h2>¡Suscribite a nuestro newsletter para fabulosos descuentos!</h2>
+        <footer class="footer">
             <br>
+            <h2>¡Suscribite a nuestro newsletter para fabulosos descuentos!</h2>
+                <br>
     
-        
-        <form action="enviar.php" method="post" enctype="text/plain">
-            <label for="Nombre y apellido">Nombre y apellido:</label>
-        <input type="text" name="nombre y apellido" required>
-        <br>
-        <label for="email">Email:</label>
-        <input type="email" required>
-        <br>
-        <label for="tel">Telefono/celular</label>
-        <input type="number" required>
-        <br>
-        <input type="submit" value="Enviar">
-        <input type="reset" value="Borrar todo"
-                ></form>
-                <img src="/Imagenes/LOGOFBPNG.png" class="logos" class="logos" alt="whatsapp" height="30px" width="30px">   
-                <img src="/Imagenes/LOGOTEPNG.png" class="logos" class="logos"alt="instagram"height="30px" width="30px">   
-                <img src="/Imagenes/LOGOIGPNG.png" class="logos"class="logos" alt="facebook"height="30px" width="30px">  
-                <img src="/Imagenes/ALEXA_BEAUTY_BLANCO.png" alt="logo footer" class="foto footer" height="50px" width="50px">  
-        <br>
-        <br>
-        Derechos reservados©/AlexaBeauty
+            
+            <form action="enviar.php" method="post" enctype="text/plain" class="letraform">
+                <label for="Nombre y apellido">Nombre y apellido:</label>
+                <input type="text" name="nombre y apellido" required>
+                <br>
+                
+                <label for="email">Email:</label>
+                <input type="email" required>
+                <br>
+                
+                <label for="tel">Telefono/celular</label>
+                <input type="number" required>
+                <br>
+                <input type="submit" value="Enviar" class="enviar">
+                <input type="reset" value="Borrar todo" class="enviar">
+            </form>
+                    <ul class="redes">
+                        <li><a href=""><img src="https://icongr.am/entypo/instagram.svg?size=30&color=ffffff" alt=""></a></li>
+                        <li><a href=""><img src="https://icongr.am/entypo/twitter.svg?size=30&color=ffffff" alt=""></a></li>
+                        <li><a href=""><img src="https://icongr.am/entypo/facebook.svg?size=30&color=ffffff" alt=""></a></li>
+                        
+                    </ul> 
+            Derechos reservados©/AlexaBeauty
         </footer>
 
-    </main>
+    
 </body>
