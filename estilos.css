@@ -74,7 +74,7 @@ body{
 }
 
 .hero { grid-area: hero;
-background-image: url(/Imagenes/GIGI\ FONDO.jpg);
+background-image: url(Imagenes/GIGI\ FONDO.jpg);
 background-position: center;
 background-repeat: no-repeat;
 background-size: cover; }
